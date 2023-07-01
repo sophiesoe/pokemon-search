@@ -148,7 +148,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <PokemonProvider>
         <Router location={location} routes={routes}>
-          <div className="mx-auto max-w-3xl">
+          <div className="mx-10 lg:mx-auto max-w-3xl">
             <Outlet />
           </div>
         </Router>
